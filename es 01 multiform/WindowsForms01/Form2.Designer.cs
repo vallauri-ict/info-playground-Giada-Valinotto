@@ -1,4 +1,4 @@
-﻿namespace multiform01_Project
+﻿namespace WindowsForms01
 {
     partial class Form2
     {
@@ -30,44 +30,44 @@
         {
             this.btnLeggiValore = new System.Windows.Forms.Button();
             this.txtForm2 = new System.Windows.Forms.TextBox();
-            this.btnInviaAF1 = new System.Windows.Forms.Button();
+            this.btnInviaF1 = new System.Windows.Forms.Button();
             this.btnFormFiglia = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLeggiValore
             // 
-            this.btnLeggiValore.Location = new System.Drawing.Point(0, 0);
+            this.btnLeggiValore.Location = new System.Drawing.Point(13, 13);
             this.btnLeggiValore.Name = "btnLeggiValore";
             this.btnLeggiValore.Size = new System.Drawing.Size(75, 23);
             this.btnLeggiValore.TabIndex = 0;
-            this.btnLeggiValore.Text = "Leggi valore";
+            this.btnLeggiValore.Text = "Leggi Valore";
             this.btnLeggiValore.UseVisualStyleBackColor = true;
             this.btnLeggiValore.Click += new System.EventHandler(this.btnLeggiValore_Click);
             // 
             // txtForm2
             // 
-            this.txtForm2.Location = new System.Drawing.Point(0, 48);
+            this.txtForm2.Location = new System.Drawing.Point(13, 43);
             this.txtForm2.Name = "txtForm2";
             this.txtForm2.Size = new System.Drawing.Size(100, 20);
             this.txtForm2.TabIndex = 1;
             // 
-            // btnInviaAF1
+            // btnInviaF1
             // 
-            this.btnInviaAF1.Location = new System.Drawing.Point(106, 45);
-            this.btnInviaAF1.Name = "btnInviaAF1";
-            this.btnInviaAF1.Size = new System.Drawing.Size(75, 23);
-            this.btnInviaAF1.TabIndex = 2;
-            this.btnInviaAF1.Text = "Invia";
-            this.btnInviaAF1.UseVisualStyleBackColor = true;
-            this.btnInviaAF1.Click += new System.EventHandler(this.btnInviaAF1_Click);
+            this.btnInviaF1.Location = new System.Drawing.Point(119, 41);
+            this.btnInviaF1.Name = "btnInviaF1";
+            this.btnInviaF1.Size = new System.Drawing.Size(75, 23);
+            this.btnInviaF1.TabIndex = 2;
+            this.btnInviaF1.Text = "Invia a Form 1";
+            this.btnInviaF1.UseVisualStyleBackColor = true;
+            this.btnInviaF1.Click += new System.EventHandler(this.btnInviaF1_Click);
             // 
             // btnFormFiglia
             // 
-            this.btnFormFiglia.Location = new System.Drawing.Point(0, 89);
+            this.btnFormFiglia.Location = new System.Drawing.Point(13, 70);
             this.btnFormFiglia.Name = "btnFormFiglia";
-            this.btnFormFiglia.Size = new System.Drawing.Size(124, 23);
+            this.btnFormFiglia.Size = new System.Drawing.Size(100, 23);
             this.btnFormFiglia.TabIndex = 3;
-            this.btnFormFiglia.Text = "Apri form figlia";
+            this.btnFormFiglia.Text = "Apri Form Figlia";
             this.btnFormFiglia.UseVisualStyleBackColor = true;
             this.btnFormFiglia.Click += new System.EventHandler(this.btnFormFiglia_Click);
             // 
@@ -75,14 +75,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(499, 299);
             this.Controls.Add(this.btnFormFiglia);
-            this.Controls.Add(this.btnInviaAF1);
+            this.Controls.Add(this.btnInviaF1);
             this.Controls.Add(this.txtForm2);
             this.Controls.Add(this.btnLeggiValore);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,7 +91,7 @@
 
         private System.Windows.Forms.Button btnLeggiValore;
         private System.Windows.Forms.TextBox txtForm2;
-        private System.Windows.Forms.Button btnInviaAF1;
+        private System.Windows.Forms.Button btnInviaF1;
         private System.Windows.Forms.Button btnFormFiglia;
     }
 }

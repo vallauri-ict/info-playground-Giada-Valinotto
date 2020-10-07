@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace multiform01_Project
+namespace WindowsForms01
 {
     public partial class FormFiglia : Form
     {
@@ -19,10 +19,8 @@ namespace multiform01_Project
 
         private void btnFigliaDiChi_Click(object sender, EventArgs e)
         {
-            if(this.Owner!=null)
-            {
-                MessageBox.Show("Form figlia di " + this.Owner.Text);
-            }
+            if (Owner != null)
+                MessageBox.Show("Form figlia di "+Owner.Text);
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace multiform01_Project
+namespace WindowsForms01
 {
     public partial class Form2 : Form
     {
@@ -18,36 +18,34 @@ namespace multiform01_Project
         {
             InitializeComponent();
         }
-        public Form2(int n) ///Costruttore con passaggio del parametro
-        {
-            InitializeComponent();
-            this.n = n; ///This è l'oggetto della Form2 this.variabile
-        }
-        public Form2(TextBox txt1) ///Costruttore con passaggio del parametro
-        {
-            InitializeComponent();
-            this.txt1= txt1;
-        }
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
+        public Form2(int n)
+        {
+            InitializeComponent();
+            this.n = n;
+        }
+
+        public Form2(TextBox txt1)
+        {
+            InitializeComponent();
+            this.txt1 = txt1;
         }
 
         private void btnLeggiValore_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Valore = " + this.n);
+            MessageBox.Show("Valore = "+n);
         }
 
-        private void btnInviaAF1_Click(object sender, EventArgs e)
+        private void btnInviaF1_Click(object sender, EventArgs e)
         {
             txt1.Text = txtForm2.Text;
         }
 
         private void btnFormFiglia_Click(object sender, EventArgs e)
         {
-            FormFiglia f = new FormFiglia(); ///Creazione Form dinamica
-            this.AddOwnedForm(f); ///Aggiunta form figlia
-            f.Show(); ///Mostro la form
+            FormFiglia f = new FormFiglia();
+            this.AddOwnedForm(f);
+            f.Show();
         }
     }
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("multiform01_Project")]
+[assembly: AssemblyTitle("WindowsForms01")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("multiform01_Project")]
+[assembly: AssemblyProduct("WindowsForms01")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("7f4e517d-707d-4a33-ab01-fd7ca22bb382")]
+[assembly: Guid("33e18f0b-6baa-46d4-94cb-ec7e2f3140a8")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //

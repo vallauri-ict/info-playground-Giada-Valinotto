@@ -1,4 +1,4 @@
-﻿namespace multiform01_Project
+﻿namespace WindowsForms01
 {
     partial class FormFiglia
     {
@@ -33,22 +33,22 @@
             // 
             // btnFigliaDiChi
             // 
-            this.btnFigliaDiChi.Location = new System.Drawing.Point(0, 0);
+            this.btnFigliaDiChi.Location = new System.Drawing.Point(13, 13);
             this.btnFigliaDiChi.Name = "btnFigliaDiChi";
-            this.btnFigliaDiChi.Size = new System.Drawing.Size(132, 23);
+            this.btnFigliaDiChi.Size = new System.Drawing.Size(112, 23);
             this.btnFigliaDiChi.TabIndex = 0;
-            this.btnFigliaDiChi.Text = "Di chi sono figlia?";
+            this.btnFigliaDiChi.Text = "Di chi sono Figlia?";
             this.btnFigliaDiChi.UseVisualStyleBackColor = true;
             this.btnFigliaDiChi.Click += new System.EventHandler(this.btnFigliaDiChi_Click);
             // 
-            // FormFiglia
+            // FromFiglia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(364, 205);
             this.Controls.Add(this.btnFigliaDiChi);
-            this.Name = "FormFiglia";
-            this.Text = "FormFiglia";
+            this.Name = "FromFiglia";
+            this.Text = "FromFiglia";
             this.ResumeLayout(false);
 
         }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace multiform01_Project.Properties
+namespace WindowsForms01.Properties
 {
 
 

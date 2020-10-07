@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace multiform01_Project
+namespace _02_FormMDI
 {
     static class Program
     {
