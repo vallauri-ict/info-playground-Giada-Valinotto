@@ -99,14 +99,14 @@
             // apri1ToolStripMenuItem
             // 
             this.apri1ToolStripMenuItem.Name = "apri1ToolStripMenuItem";
-            this.apri1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apri1ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.apri1ToolStripMenuItem.Text = "Apri&1";
             this.apri1ToolStripMenuItem.Click += new System.EventHandler(this.apri1ToolStripMenuItem_Click);
             // 
             // apri2ToolStripMenuItem
             // 
             this.apri2ToolStripMenuItem.Name = "apri2ToolStripMenuItem";
-            this.apri2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apri2ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.apri2ToolStripMenuItem.Text = "Apri&2";
             this.apri2ToolStripMenuItem.Click += new System.EventHandler(this.apri2ToolStripMenuItem_Click);
             // 
@@ -114,7 +114,7 @@
             // 
             this.esciToolStripMenuItem.Name = "esciToolStripMenuItem";
             this.esciToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.esciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.esciToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.esciToolStripMenuItem.Text = "&Esci";
             this.esciToolStripMenuItem.Click += new System.EventHandler(this.esciToolStripMenuItem_Click);
             // 
@@ -129,7 +129,7 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(79, 22);
             this.toolStripMenuItem2.Text = "?";
             // 
             // statusStrip1
@@ -162,6 +162,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);

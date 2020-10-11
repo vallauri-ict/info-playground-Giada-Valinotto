@@ -72,6 +72,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ModalEsci";
             this.Text = "ModalEsci";
+            this.Load += new System.EventHandler(this.ModalEsci_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

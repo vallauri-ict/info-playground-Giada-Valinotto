@@ -72,5 +72,10 @@ namespace _02_FormMDI
         {
             toolStripStatusLbl.Text = "Premuto Apri 2";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

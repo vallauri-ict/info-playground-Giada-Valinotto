@@ -16,5 +16,10 @@ namespace _02_FormMDI
         {
             InitializeComponent();
         }
+
+        private void ModalEsci_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

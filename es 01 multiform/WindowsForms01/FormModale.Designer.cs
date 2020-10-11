@@ -103,6 +103,7 @@
             this.Controls.Add(this.btnOk);
             this.Name = "FormModale";
             this.Text = "FormModale";
+            this.Load += new System.EventHandler(this.FormModale_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

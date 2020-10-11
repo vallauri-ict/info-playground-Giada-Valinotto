@@ -30,5 +30,10 @@ namespace WindowsForms01
             nome = "";
             eta = "";
         }
+
+        private void FormModale_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

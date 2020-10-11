@@ -47,5 +47,10 @@ namespace WindowsForms01
             this.AddOwnedForm(f);
             f.Show();
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

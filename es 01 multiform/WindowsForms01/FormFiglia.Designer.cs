@@ -41,14 +41,15 @@
             this.btnFigliaDiChi.UseVisualStyleBackColor = true;
             this.btnFigliaDiChi.Click += new System.EventHandler(this.btnFigliaDiChi_Click);
             // 
-            // FromFiglia
+            // FormFiglia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(364, 205);
             this.Controls.Add(this.btnFigliaDiChi);
-            this.Name = "FromFiglia";
-            this.Text = "FromFiglia";
+            this.Name = "FormFiglia";
+            this.Text = "FormFiglia";
+            this.Load += new System.EventHandler(this.FormFiglia_Load);
             this.ResumeLayout(false);
 
         }

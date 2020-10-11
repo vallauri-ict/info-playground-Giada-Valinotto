@@ -22,5 +22,10 @@ namespace WindowsForms01
             if (Owner != null)
                 MessageBox.Show("Form figlia di "+Owner.Text);
         }
+
+        private void FormFiglia_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

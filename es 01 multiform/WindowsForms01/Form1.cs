@@ -19,10 +19,12 @@ namespace WindowsForms01
 
         private void btnApriF2_Click(object sender, EventArgs e)
         {
+            ///Form creata staticamente dal designer senza passaggio di alcun parametro
             Form2 f2 = new Form2();
             f2.Text = "Form 2 da Design";
             f2.Show();
 
+            ///Form creata staticamente dal designer con passaggio di un parametro
             Form2 f2b = new Form2(10);
             f2b.Text = "Form 2 da Design con parametro";
             f2b.Show();
@@ -57,6 +59,11 @@ namespace WindowsForms01
                 txtEtaFM.Text = "";
                 MessageBox.Show("Premuto Annulla!");
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
