@@ -1,0 +1,9 @@
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\bin\Debug\es 01 - OOP.exe.config
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\bin\Debug\es 01 - OOP.exe
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\bin\Debug\es 01 - OOP.pdb
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\obj\Debug\es 01 - OOP.csprojAssemblyReference.cache
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\obj\Debug\es_01___OOP.Form1.resources
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\obj\Debug\es_01___OOP.Properties.Resources.resources
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\obj\Debug\es 01 - OOP.csproj.GenerateResource.cache
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\obj\Debug\es 01 - OOP.exe
+C:\Users\g.valinotto.0990\Desktop\es 01 - OOP\es 01 - OOP\obj\Debug\es 01 - OOP.pdb
