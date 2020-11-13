@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("es 06 - OOP Form registrazione")]
+[assembly: AssemblyTitle("es 07 - OOP Liste")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("es 06 - OOP Form registrazione")]
+[assembly: AssemblyProduct("es 07 - OOP Liste")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("3c62d851-296d-49e1-ba0f-6608ce91d7b7")]
+[assembly: Guid("89301af6-bb7e-4da8-96e4-f1e976016638")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //

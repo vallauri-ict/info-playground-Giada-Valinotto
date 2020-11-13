@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace es_06___OOP_Form_registrazione.Properties
+namespace es_07___OOP_Liste.Properties
 {
 
 

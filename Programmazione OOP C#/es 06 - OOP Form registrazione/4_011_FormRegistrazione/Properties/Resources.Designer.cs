@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace es_06___OOP_Form_registrazione.Properties
+namespace _4_011_FormRegistrazione.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace es_06___OOP_Form_registrazione.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("es_06___OOP_Form_registrazione.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("_4_011_FormRegistrazione.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace es_06___OOP_Form_registrazione
+namespace _4_011_FormRegistrazione
 {
     static class Program
     {
