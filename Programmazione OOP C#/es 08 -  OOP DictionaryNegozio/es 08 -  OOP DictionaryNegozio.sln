@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "es 08 -  OOP DictionaryNegozio", "es 08 -  OOP DictionaryNegozio\es 08 -  OOP DictionaryNegozio.csproj", "{D0DD953F-F1D8-47A7-A495-63B01ABBDCFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DD953F-F1D8-47A7-A495-63B01ABBDCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DD953F-F1D8-47A7-A495-63B01ABBDCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DD953F-F1D8-47A7-A495-63B01ABBDCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DD953F-F1D8-47A7-A495-63B01ABBDCFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6297368C-ADC2-4B23-A422-0D03A5CCBA9A}
+	EndGlobalSection
+EndGlobal
