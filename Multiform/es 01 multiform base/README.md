@@ -1,6 +1,6 @@
 # WindowsForms01
 
-_Prof. Diego Belliardo_
+_Stud. Valinotto Giada_
 
 
-### Primo esempio di Form SDI
+### Primo esempio di Form SDI di base 

@@ -1,6 +1,5 @@
-# WindowsForms01
+# es 02 - Multiform con Form modale
 
-_Prof. Diego Belliardo_
+### Primo esempio di Form MDI di base
 
-
-### Primo esempio di Form MDI
+_Stud. Valinotto Giada_
