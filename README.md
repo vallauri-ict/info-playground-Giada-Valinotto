@@ -28,3 +28,4 @@ _Stud. Valinotto Giada, classe 4B Informatica 2020/2021_
 - Regex: Regole e relativo utilizzo
 
   
+- Ereditarietà
