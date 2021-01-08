@@ -1,6 +1,6 @@
 # info playground - Valinotto Giada :computer:
 
-_Stud. Valinotto Giada, classe 4B Informatica 2020/2021
+_Stud. Valinotto Giada, classe 4B Informatica 2020/2021_
 
 
 ## Cartella contenente i vari progetti a scopo didattico svolti durante l'anno scolastico 2020/2021
