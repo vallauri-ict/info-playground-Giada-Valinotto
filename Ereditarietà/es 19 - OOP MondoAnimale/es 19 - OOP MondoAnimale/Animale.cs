@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace es_19___OOP_MondoAnimale
 {
-    class Animale
+    public abstract class Animale
     {
+        private String nome;
+        protected String verso;
+
+        public Animale(String s)
+        {
+            nome = s;
+        }
+        public abstract String si_muove();
+
+        public abstract String vive();
+
+        public abstract String chi_sei();
+
+        public void mostra()
+        {
+            System.Windows.Forms.MessageBox.Show(nome + ", " + chi_sei() + ", " + verso + ", si muove " + si_muove() + " e vive " + vive());
+        }
     }
 }
