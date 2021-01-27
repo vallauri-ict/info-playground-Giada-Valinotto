@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("es 19 - OOP MondoAnimale")]
+[assembly: AssemblyTitle("4_025_MondoAnimale")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("es 19 - OOP MondoAnimale")]
+[assembly: AssemblyProduct("4_025_MondoAnimale")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Se il progetto viene esposto a COM, il GUID seguente verrà utilizzato come ID della libreria dei tipi
-[assembly: Guid("9f6050f0-69dd-42ff-9019-5816e8c47bd3")]
+[assembly: Guid("db9ab0cc-abbe-49df-a9a9-1dc27bdf3b5a")]
 
 // Le informazioni sulla versione di un assembly sono costituite dai seguenti quattro valori:
 //
