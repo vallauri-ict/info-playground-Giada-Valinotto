@@ -62,5 +62,6 @@ namespace es_20___OOP_Classi_Astratte
             Cognome = cognome;
             Citta = citta;
         }
+        public abstract string visualizza();
     }
 }

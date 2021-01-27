@@ -9,11 +9,42 @@ namespace es_20___OOP_Classi_Astratte
     class ClsAlunno : ClsPersona
     {
         #region attributi
+
         protected static int progressivo = 0;
-        protected readonly string matricola;
-        protected char classe;
-        protected char sezione;
-        protected string specializzazione;
+        private readonly string matricola;
+        private char classe;
+        private char sezione;
+        private string specializzazione;
+
         #endregion
+
+        public char Classe
+        {
+            get => classe;
+            set => classe = Convert.ToChar(value);
+        }
+
+        public string Matricola => matricola;
+
+        public char Sezione
+        {
+            get => sezione;
+            set => sezione = Convert.ToChar(value);
+        }
+
+        public string Specializzazione
+        {
+            get => specializzazione;
+            set => specializzazione = value;
+        }
+
+        public ClsAlunno(string nome, string cognome, string città) : base(nome, cognome, città)
+        {
+        }
+
+        public override string visualizza()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
