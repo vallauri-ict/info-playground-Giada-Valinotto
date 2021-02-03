@@ -177,11 +177,10 @@
             "Azienda3"});
             this.cmbAzienda.FormattingEnabled = true;
             this.cmbAzienda.Items.AddRange(new object[] {
-            "INF",
-            "ELT",
-            "MEC",
-            "MEN",
-            "LIC"});
+            "AZIENDA1",
+            "AZIENDA2",
+            "AZIENDA3",
+            "AZIENDA4"});
             this.cmbAzienda.Location = new System.Drawing.Point(316, 102);
             this.cmbAzienda.Name = "cmbAzienda";
             this.cmbAzienda.Size = new System.Drawing.Size(121, 21);
@@ -220,6 +219,7 @@
             this.btnRicerca.TabIndex = 16;
             this.btnRicerca.Text = "Ricerca";
             this.btnRicerca.UseVisualStyleBackColor = true;
+            this.btnRicerca.Click += new System.EventHandler(this.btnRicerca_Click);
             // 
             // btnInserisci
             // 
@@ -229,6 +229,7 @@
             this.btnInserisci.TabIndex = 17;
             this.btnInserisci.Text = "Inserisci";
             this.btnInserisci.UseVisualStyleBackColor = true;
+            this.btnInserisci.Click += new System.EventHandler(this.btnInserisci_Click);
             // 
             // dgvStudenti
             // 
@@ -292,6 +293,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudenti)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -318,10 +320,10 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnRicerca;
         private System.Windows.Forms.Button btnInserisci;
-        private System.Windows.Forms.DataGridView dgvStudenti;
         private System.Windows.Forms.Button btnElimina;
         private System.Windows.Forms.TextBox txtPosizione;
         private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.DataGridView dgvStudenti;
     }
 }
 

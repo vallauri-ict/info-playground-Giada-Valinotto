@@ -38,13 +38,18 @@ namespace es_20___OOP_Classi_Astratte
             set => specializzazione = value;
         }
 
-        public ClsAlunno(string nome, string cognome, string città) : base(nome, cognome, città)
+        public ClsAlunno(string nome, string cognome, string città, string classe, string sezione, string specializazione) : base(nome, cognome, città)
         {
+            Classe = Convert.ToChar(classe);
+            Specializzazione = specializzazione;
+            Sezione = Convert.ToChar(sezione);
+            progressivo++;
+            matricola = "A" + progressivo.ToString().PadLeft(5, '0');
         }
 
         public override string visualizza()
         {
-            throw new NotImplementedException();
+            return Matricola + " " + Nome + " " + Cognome + " " + Citta + " " + Classe + " " + Sezione + " " + Sezione + " " + Specializzazione;
         }
     }
 }
