@@ -70,5 +70,27 @@ namespace es_20___OOP_Classi_Astratte
                 MessageBox.Show("Gli stagisti non hanno effettuato ore in azienda", "Info:", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void btnElimina_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtPosizione.Text == "")
+                {
+                    elencoStudenti.cancella();
+                }
+                else
+                {
+                    elencoStudenti.cancellaAllaPos(Convert.ToInt32(txtPosizione.Text));
+                }
+                MessageBox.Show("Cancellazione effettuata");
+                elencoStudenti.visualzzaDgv(dgvStudenti);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }
