@@ -31,7 +31,7 @@ _Stud. Valinotto Giada, classe 4B Informatica 2020/2021_
 - Ereditarietà
 
 
--User Controls
+- User Controls
 
 
--SQL
+- SQL
